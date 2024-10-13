@@ -1,0 +1,81 @@
+body {
+    font-family: 'Playfair+Display' ,Arial, sans-serif;
+    background-color: #2a9d8f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 35px;
+    box-sizing: border-box;
+}
+
+.contain{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+div{margin-left:20px;margin-right:20px}
+form {
+    position: absolute;
+    /* background-color: #0b665b; */
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,1);
+    width: 550px;
+    margin-left:400px;
+    margin-top:90px;
+    
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255,255,255);font-style: italic;margin-top: 25px;font-weight:700;
+}
+
+label {
+    display: block;
+    margin: 20px 0 10px;
+    color: rgb(0,0,0);
+    margin-bottom:20px;margin-top:30px;font-weight:600;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;margin-bottom:20px;
+    font-size:18px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    border:none
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;;
+
+}
+
+
+
+#monu{width:150px;font-size: 20px;margin-top:0px;margin-left:75px;margin-bottom:20px}
+#password{border-top:1px}  
+#pass{border:none}
+input[type="reset"]{background-color:#4caf50;cursor: pointer;border:none;color:white;width:150px;font-size:20px;height:37px;margin-left:80px;margin-bottom:25px;margin-top:20px}
+
+.back-video{
+    position: absolute;
+    z-index: -1;
+    margin:0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
